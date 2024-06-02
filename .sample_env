@@ -1,0 +1,3 @@
+VITE_serviceId = your service_id
+VITE_templateId = your_template_id
+VITE_publicKey = your_publickey
