@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import  "./index.css";
-import {RouterProvider,createBrowserRouter} from "react-router-dom"
+import {RouterProvider,createBrowserRouter,BrowserRouter,Route,Routes} from "react-router-dom"
 import About from "./components/about";
 import Resume from "./components/resume";
 import Projects from "./components/projects";
