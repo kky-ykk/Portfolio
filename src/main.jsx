@@ -13,11 +13,11 @@ import Home from './components/Home.jsx';
 
 const router = createBrowserRouter([
   {path:"/Portfolio",element:<App/>,children:[                   //created single object and pass children there
-    {path:"/Portfolio/",element:<Home/>},
-    {path:"/Portfolio/about",element:<About/>},
-    {path:"/Portfolio/resume",element:<Resume/>},
-    {path:"/Portfolio/projects",element:<Projects/>},
-    {path:"/Portfolio/contact",element:<Contact/>}
+    {path:"/Portfolio",element:<Home/>},
+    {path:"about",element:<About/>},
+    {path:"resume",element:<Resume/>},
+    {path:"projects",element:<Projects/>},
+    {path:"contact",element:<Contact/>}
   ]}
 ])
 
