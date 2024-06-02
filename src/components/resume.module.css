@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+.mainContainer{
+    width: 90%;
+    margin: 15px;
+}
+
+.aboutSection{
+    color: #0995cf;
+    margin-left: 50px;
+}
+
+.aboutSection span{
+    float: right;
+}
+
+.hrLine{
+    border-top: 1px dotted red
+}
+
+/* -----------------------------------eduacations belows bar */
+
+
+.headSec {
+    font-weight: 800;
+    font-size: 23px;
+    text-align: center;
+}
+
+.pycard{
+    background: #1565C0;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 9px;
+}
+
+.educationCards{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-between;
+    
+    
+}
+
+.educard{
+    background-color: rgb(40, 33, 33);
+    padding: 15px 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 45%;
+}
+
+.clzcards{
+    color: #0995cf;
+}
+
+@media screen and (max-width:904px) {
+    .educard{
+        width: 70%;
+    }
+}
+
+/* -------------------skills */
+
+.skillContainer{
+    padding: 5px 5%;
+    width: 80%;
+}
+
+.container {
+    width: 100%;
+    background-color: #ddd;
+  }
+  
+  .skills {
+    text-align: right;
+    height: 13px;
+    color: white;
+    font-size: 10px;
+  }
+  
+  .html {width: 90%; background-color: #0995cf;}
+  .css {width: 80%; background-color: #0995cf;}
+  .js {width: 90%; background-color: #0995cf;}
+  .java {width: 93%; background-color: #0995cf;}

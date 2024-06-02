@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+.mainContainer{
+    width: 90%;
+    margin: 15px;
+}
+
+.aboutSection{
+    color: #0995cf;
+    margin-left: 50px;
+}
+
+.aboutSection span{
+    float: right;
+}
+
+.hrLine{
+    border-top: 1px dotted red
+}
+
+/* ------------------- projects-list */
+.headSec {
+    font-weight: 800;
+    font-size: 23px;
+    text-align: center;
+}
+
+
+.projectsContainer{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.project01{
+    height: 325px;
+    width: 300px;
+    background-color: #4e4e52;
+    /* padding: 5px; */
+    border-radius: 7px;
+    margin: 10px;
+    border: 3px solid #E0E0E0;
+    transition: 0.5s ease-in all;
+}
+
+.imgp{
+    height: 230px;
+    width: 300px;
+}
+
+.imgp img{
+    height: 230px;
+    width: 300px;
+    position: absolute;
+}
+
+.projectInfo{
+    text-align: center;
+    color: #0995cf;
+    /* padding-top: 5px; */
+}
+
+
+
+.projectInfo p{
+    color: white;
+}
+
+.btnAction{
+    position: absolute;
+    height: 230px;
+    width: 300px;
+    background-color: #0995cf8a;
+    z-index: 1;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.btnAction a{
+    text-decoration: none;
+    padding: 9px;
+    border-radius: 5px;
+    background: black;
+    color: white;
+}
+
+.project01:hover .btnAction{
+    display: flex;
+    
+}
+
+.project01:hover{
+    transform: scale(1.04);
+}
+
