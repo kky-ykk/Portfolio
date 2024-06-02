@@ -103,7 +103,7 @@ export default function Home() {
       />
       <div className={styles.Container}>
 
-                <h1>I am a <b style={{color:"#0b98d1"}}>Software Developer</b></h1>
+                <h1 className={styles.h11}>I am a <b style={{color:"#0b98d1"}}>Software Developer</b></h1>
 
                 <h1 className={styles.hWelcoming}>
                     I am into{" "}
