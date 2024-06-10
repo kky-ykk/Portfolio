@@ -1,3 +1,10 @@
+/**
+ * The Contact component in this JavaScript React code handles form submission for sending emails using
+ * EmailJS, with email validation and a loading spinner included.
+ * @returns The `Contact` component is being returned, which contains a form for users to input their
+ * name, email, and message. It also includes validation for the email input, a loading spinner while
+ * the email is being sent, and contact information displayed on the side.
+ */
 import { IoMdMail } from "react-icons/io";
 import styles from "./contacts.module.css";
 import { IoLocation } from "react-icons/io5";
